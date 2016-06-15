@@ -1,0 +1,69 @@
+% $date: 15--18 июня 2016 г.
+
+\section*{Круговые многочлены, часть 1}
+
+% $authors:
+% - Константин Валерьевич Логинов
+
+% XXX
+% $build$matter[print]: [[.], [.]]
+% $build$style[print]: ['.[a6paper,landscape,2-on-1]']
+% $build$matter[print,author]: [[.]]
+% $build$style[print,author]: ['.[resize-to]']
+
+\begingroup
+    \ifdefined\mathup
+        \def\piconst{\mathup{\pi}}%
+    \else
+        \def\piconst{\uppi}%
+    \fi
+
+\begin{problems}
+
+\itemy{0}
+Выразите $974$ в~виде суммы двух квадратов, зная, что $13 = 2 ^ 2 + 3 ^ 2$,
+$74 = 5^2 + 7^2$.
+
+\item
+Найти все значения $\sqrt[3]{-i}$.
+
+\item
+Докажите тождества
+\begin{align*}
+    C_{n}^{1} - C_{n}^{3} + C_{n}^{5} - \ldots
+& =
+    2^{n/2} \cos \frac{n \piconst}{4}
+, \\
+    C_{n}^{0} - C_{n}^{2} + C_{n}^{4} - \ldots
+& =
+    2^{n/2} \sin \frac{n \piconst}{4}
+. \end{align*}
+
+\item
+Докажите, что многочлен
+\(
+    (\cos\theta + x \sin\theta)^{n}
+    - \cos(n \theta) - x \sin(n \theta)
+\) делится на~$x^2 + 1$.
+
+\item
+Докажите, что многочлен
+\(
+    x^{4a} + x^{4b + 1} + x^{4c + 2} + x^{4d + 3}
+\), где $a, b, c, d$~--- натуральные числа, делится на~$x^3 + x^2 + x + 1$.
+
+\item
+Найдите наибольший общий делитель многочленов $(x^{n} - 1)$ и~$(x^{m} - 1)$.
+
+\item
+Докажите, что
+\[
+    \sin \frac{\piconst}{n} \cdot \sin \frac{2 \piconst}{n}
+    \cdot \ldots \cdot
+    \sin \frac{(n - 1) \piconst}{n}
+=
+    \frac{n}{2^{n-1}}
+\, . \]
+
+\end{problems}
+

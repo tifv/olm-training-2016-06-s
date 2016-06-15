@@ -1,0 +1,43 @@
+!!omap
+
+- $large$common$timetable: true
+- $common$timetable: &common-timetable !!omap
+  - 2016-06-15: [1, 2]
+  - 2016-06-16: [1, 2]
+  - 2016-06-17: [1, 2]
+  - 2016-06-18: [1, 2]
+  - 2016-06-19: [1, 2]
+  - 2016-06-20: [1, 2]
+  - 2016-06-21: [1, 2]
+  - 2016-06-22: [1, 2]
+  - 2016-06-23: [    ]
+  - 2016-06-24: [1, 2]
+  - 2016-06-25: [1, 2]
+  - 2016-06-26: [1, 2]
+  - 2016-06-27: [1, 2]
+
+- $large$groups[g10r3]: true
+- $groups[g10r3]:
+    name: 10-3
+    timetable: *common-timetable
+
+- $large$groups[g10r2]: true
+- $groups[g10r2]:
+    name: 10-2
+    timetable: *common-timetable
+
+- $large$groups[g10r1]: true
+- $groups[g10r1]:
+    name: 10-1
+    timetable: *common-timetable
+
+- $large$groups[g11r2]: true
+- $groups[g11r2]:
+    name: 11-2
+    timetable: *common-timetable
+
+- $large$groups[g11r1]: true
+- $groups[g11r1]:
+    name: 11-1
+    timetable: *common-timetable
+
