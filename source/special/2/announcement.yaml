@@ -1,0 +1,12 @@
+announcement:
+  $build$style[print]:
+  - .[a6paper,landscape,resize-to]
+  $build$style:
+  - .[a6paper]
+  $style[-announcement]:
+  - .[announcement]
+  $matter:
+  - - ../Дубровский/announcement
+  - - ../Митрофанов/announcement
+  - - ../Могилевский/announcement
+  - - ../Тарасов/announcement

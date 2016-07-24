@@ -18,26 +18,26 @@
 
 - $large$groups[g10r3]: true
 - $groups[g10r3]:
-    name: 10-3
+    name: Плюшки
     timetable: *common-timetable
 
 - $large$groups[g10r2]: true
 - $groups[g10r2]:
-    name: 10-2
+    name: Батоны
     timetable: *common-timetable
 
 - $large$groups[g10r1]: true
 - $groups[g10r1]:
-    name: 10-1
+    name: Каравай
     timetable: *common-timetable
 
 - $large$groups[g11r2]: true
 - $groups[g11r2]:
-    name: 11-2
+    name: Ватрушки
     timetable: *common-timetable
 
 - $large$groups[g11r1]: true
 - $groups[g11r1]:
-    name: 11-1
+    name: Пирожки
     timetable: *common-timetable
 

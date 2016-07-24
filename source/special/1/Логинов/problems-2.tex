@@ -1,0 +1,63 @@
+% $date: 15--18 июня 2016 г.
+
+\section*{Круговые многочлены, часть 2}
+
+% $authors:
+% - Константин Валерьевич Логинов
+
+\begingroup
+    \def\binom#1#2{\mathrm{C}_{#1}^{#2}}%
+    \def\cyclotomic{\mathrm{\Phi}}%
+
+\begin{problems}
+
+\itemy{0}
+Докажите, что по~модулю~$p$ верно $(x + a)^p \equiv x^p + a^p \equiv x^p + a$,
+где $a$~--- вычет по~модулю~$p$, а~$x$~--- формальная переменная.
+
+\item
+Пусть $S$~--- множество с~операцией $\ast$ такой, что для любых $x$, $y$ из~$S$
+выполнены равенства:
+\[
+    x \ast (x \ast y) = y
+\, , \qquad
+    (y \ast x) \ast x = y
+\, . \]
+Докажите, что для любых $x$, $y$ из~$S$ верно $x \ast y = y \ast x$.
+
+\item
+Докажите, что
+\begin{align*}
+    \binom{p-1}{k} &\equiv (-1)^k \pmod{p}
+\, , \quad
+    0 \leq k \leq p - 1
+\, , \\
+    \binom{p+1}{k} &\equiv 0 \pmod{p}
+\, , \quad
+    2 \leq k \leq p - 1
+\, , \\
+    \binom{pa}{pb} &\equiv \binom{a}{b} \pmod{p}
+\, , \quad
+    a \geq b \geq 0
+\, , \\
+    \binom{2p}{p} &\equiv 2 \pmod{p}
+\, . \end{align*}
+
+\item
+Докажите, что любой простой делитель числа $(2^p - 1)$ больше $p$.
+Выведите отсюда, что простых чисел бесконечно много.
+
+\item
+Найдите круговые многочлены $\cyclotomic_{10}$, $\cyclotomic_{11}$,
+$\cyclotomic_{12}$.
+
+\item
+\emph{Подгруппой~$H$} группы~$G$ называется подмножество~$G$, замкнутое
+относительно операции умножения в~$G$, такое, что оно само является группой.
+Докажите, что в~группе перестановок $S_n$ найдется подгруппа, изоморфная
+$\mathbb{Z} / n \mathbb{Z}$.
+
+\end{problems}
+
+\endgroup % \def\binom \def\cyclotomic
+
